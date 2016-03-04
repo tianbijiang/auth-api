@@ -1,0 +1,47 @@
+.popup {
+    display: none;
+    position: fixed;
+    width: 40%;
+    left: 30%;
+    top: 20%;
+    z-index: 9999;
+    -webkit-box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.row {
+    margin: 10px;
+}
+
+label.error {
+    color: #c9302c;
+}
+
+textarea {
+    resize: none;
+}
+
+/*.row1 {*/
+/*margin-top: 60px;*/
+/*}*/
+
+/*.alert {*/
+/*display: block;*/
+/*position: fixed;*/
+/*z-index: 9999;*/
+/*}*/
+
+/*@media only screen and (max-width : 800px) {*/
+/*.popup {*/
+/*display: none;*/
+/*position: fixed;*/
+/*left: 10%;*/
+/*width: 80%;*/
+/*z-index:1002;*/
+/*}*/
+/*}*/
